@@ -1,9 +1,9 @@
-package me.rotemfo;
+package me.rotemfo.search;
 
-public abstract class BinarySearch {
+public class BinarySearch {
 
-    private static int search(final int[] arr, int from, int len, final int what) {
-        int low = from;
+    private static int search(final int[] arr, int len, final int what) {
+        int low = 0;
         int high = len - 1;
 
         while (low <= high) {
@@ -23,6 +23,6 @@ public abstract class BinarySearch {
     public static int search(final int[] arr, final int what) {
         int len = arr.length - 1;
         if (what < arr[0] || what > arr[len]) return -1;
-        return search(arr, 0, len, what);
+        return search(arr, len, what);
     }
 }

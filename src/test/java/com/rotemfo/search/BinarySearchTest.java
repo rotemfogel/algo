@@ -1,6 +1,6 @@
-package com.rotemfo;
+package com.rotemfo.search;
 
-import me.rotemfo.BinarySearch;
+import me.rotemfo.search.BinarySearch;
 import org.junit.Assert;
 import org.junit.Test;
 

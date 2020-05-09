@@ -1,6 +1,6 @@
-package me.rotemfo;
+package me.rotemfo.search;
 
-public abstract class RecursiveBinarySearch {
+public class RecursiveBinarySearch {
 
     private static int search(int[] arr, int left, int right, int what) {
         if (right >= left) {
