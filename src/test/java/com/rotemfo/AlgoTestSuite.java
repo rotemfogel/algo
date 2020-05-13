@@ -1,19 +1,15 @@
 package com.rotemfo;
 
-import com.rotemfo.search.BinarySearchTest;
-import com.rotemfo.search.RecursiveBinarySearchTest;
-import com.rotemfo.sort.BubbleSortTest;
-import com.rotemfo.sort.QuickSortTest;
+import com.rotemfo.search.SearchTestSuite;
+import com.rotemfo.sort.SortTestSuite;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-        BinarySearchTest.class,
-        RecursiveBinarySearchTest.class,
-        BubbleSortTest.class,
-        QuickSortTest.class
+        SearchTestSuite.class,
+        SortTestSuite.class
 })
 
 public class AlgoTestSuite {
