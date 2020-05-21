@@ -54,7 +54,7 @@ public class MergeSort extends Sorter {
         return arr;
     }
 
-    public static int[] mergeSort(int[] arr) {
+    public static int[] sort(int[] arr) {
         int n = arr.length;
         if (n < 2) {
             return arr;

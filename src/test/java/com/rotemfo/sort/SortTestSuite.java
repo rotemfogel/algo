@@ -9,7 +9,8 @@ import org.junit.runners.Suite;
         BubbleSortTest.class,
         QuickSortTest.class,
         MergeSortTest.class,
-        HeapSortTest.class
+        HeapSortTest.class,
+        InsertionSortTest.class
 })
 
 public class SortTestSuite {

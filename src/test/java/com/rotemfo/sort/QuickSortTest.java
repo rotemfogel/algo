@@ -10,6 +10,7 @@ public class QuickSortTest extends SortTest {
     public void sort() {
         final int[] sorted = QuickSort.sort(arr);
         Assert.assertEquals(sorted[0], 1);
+        Assert.assertEquals(sorted[5], 22);
         Assert.assertEquals(sorted[sorted.length - 1], 94);
     }
 }
